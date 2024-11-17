@@ -49,7 +49,7 @@ header img {
     padding: 1%;
     border: #000000 2px solid;
     font-size: 1.1em;
-}   
+}
 .text li {
     list-style-type: circle;
     margin: 2% 0;
@@ -60,7 +60,7 @@ header img {
 }
 .text a:hover {
     color: rgb(28, 201, 71);
-    text-decoration: none; 
+    text-decoration: none;
 }
 footer {
     display: flex;
@@ -99,7 +99,10 @@ footer p {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:550px) {
+    header section {
+      font-size: 0.9em;
+    }
     #opening {
         font-size: 1em;
         margin: 10% 30% 0 30%;
@@ -122,5 +125,35 @@ footer p {
     }
     .text_container3 {
         background-image: url('register2.svg');
+    }
+}
+@media only screen and (max-width:1000px) and (min-width:600px) {
+    #opening {
+        font-size: 1.5em;
+        margin: 10% 28% 0 28%;
+    }
+    .opening_container {
+        height: 40%;
+    }
+    .text {
+        font-size: 1.4em;
+        width: 60%;
+        margin: 100% 5%;
+        background-color: #0606e2a0;
+    }
+}
+@media only screen and (max-width:1030px) and (min-width:1000px) {
+    #opening {
+        font-size: 1.5em;
+        margin: 10% 28% 0 28%;
+    }
+    .opening_container {
+        height: 40%;
+    }
+    .text {
+        font-size: 1.4em;
+        width: 60%;
+        margin: 100% 5%;
+        background-color: #0606e2a0;
     }
 }
