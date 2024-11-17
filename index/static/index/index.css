@@ -99,3 +99,28 @@ footer p {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+@media only screen and (max-width:500px) {
+    #opening {
+        font-size: 1em;
+        margin: 10% 30% 0 30%;
+    }
+    .opening_container {
+        height: 40%;
+    }
+    .text {
+        font-size: 0.9em;
+        width: 70%;
+        margin: 150% 3%;
+        background-color: #0606e29d;
+    }
+    .text_container {
+        background-image: url('question-mark2.svg');
+        background-position: 90% 50%;
+    }
+    .text_container2 {
+        background-image: url('tick2.svg');
+    }
+    .text_container3 {
+        background-image: url('register2.svg');
+    }
+}
