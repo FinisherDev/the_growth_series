@@ -37,22 +37,49 @@ header img {
 }
 
 #opening {
-    margin: 7% 30% 0 33%;
+    margin: 7% 25% 0 25%;
     padding: 2%;
     background-color: #0606e2;
     border-radius: 10px 0px 10px 0px;
+    font-size: 1.3em;
+}
+
+#title {
+    color: #050577;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .body {
     color: rgb(31, 30, 30);
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: 1%;
-    margin-top: 10%;
+    margin: 10% 0 10% 0;
     text-align: center;
     background-color: #f0f3f9;
 }
 
+ul {
+    list-style: none;
+}
 
+li {
+    margin-bottom: 2%;
+}
+
+li em {
+    font-style: normal;
+    font-weight: bolder;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #0d0df1;
+}
 footer {
     display: flex;
     font-family: sans-serif;
